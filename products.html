@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro&family=Signika:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="products.css">
+
+    <title>Product|KFC</title>
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <!-- navbar---------------------------------------------------->
+    <div id="navbar">
+      <div id="left">
+        <div id="logo">
+          <img
+            src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg"
+            alt="kfc logo"
+          />
+        </div>
+        <ul>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Deals</a></li>
+        </ul>
+      </div>
+      <div id="right">
+        <div id="signin">
+          <a href="login.html"><i class="fas fa-user-circle"></i> Signin</a>
+        </div>
+        <div id="total"><a href=""></a></div>
+        <div id="kfcbox">
+          <a href="cart.html"
+            ><img
+              src="https://thumbs.dreamstime.com/b/web-219165309.jpg"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+    <!-- header----------------------------------------------->
+    <div id="headerBottom">
+      <div class="headBottomParent">
+        <div class="headBottomTxt">
+          LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN
+        </div>
+        <button
+          class="button redButton start-order-btn"
+          id="startOrderItemButton"
+          type="submit"
+        >
+          <span>Start Order</span>
+        </button>
+      </div>
+    </div>
+
+  <!-- LOWER BOX--------------------------------------------------->
+    <style>
+      #container {
+        display: flex;
+       width: 91%;
+        margin: auto;
+        font-family: "Signika", sans-serif;
+        /* margin-right: 0!important; */
+        flex-wrap: nowrap !important;
+        /* border: 1px solid teal; */
+      }
+      #leftbox {
+        /* border: 1px solid red; */
+        height: 100vh;
+        width: 20vw;
+        position: sticky;
+        top: 100px;
+        margin-left: 1%;
+        flex: 0 0 25%;
+       width: 27%;
+      }
+            #rightbox {
+        /* border: 1px solid red; */
+        width: 68%;
+        height: 8000px;
+        margin-left: 6%;
+      }
+      #line1 {
+        width: 100%;
+        top: 0;
+        background-color: transparent;
+        /* z-index: 111; */
+        margin-bottom: 7%;
+        /* display: flex; */
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+      }
+      #line1 img {
+        height: 6vw;
+        width: 5vw;
+        margin-left: 1.5vw;
+        margin-top: -5%;
+        vertical-align: middle;
+      }
+      #leftbox h1{
+        font-size: 35px;
+        font-family: "Signika", sans-serif;
+        margin-left: 1.5%;
+      }
+      #leftbox h5{
+        font-size: 18px;
+        font-family: "Signika", sans-serif;
+        color: rgb(129,129,129);
+        margin-top: 2.7%;
+        margin-left: 1.5%;
+        
+      }
+      /* rightbox---------------------------------------------> */
+      #search{
+        border-radius: 34px;
+    border: 1px solid #e3e3e3;
+    padding-left: 40px;
+    padding-right: 35px;
+    height: 35px;
+    width: 180px;
+    text-align: left;
+    margin-top: 4%;
+    padding-bottom: 5px;
+    position: sticky;
+    font-family: "Signika", sans-serif;
+    color: black;
+      }
+      hr{
+        margin-top: 2%;
+        background-color: black;
+      }
+      #mainproductbox{
+        /* border: 1px solid blue; */
+         width: 97%;
+        margin: auto;
+        background-color:rgb(248,247,245) ;
+      }
+      #mainproductbox h1{
+        margin-top: 5%;
+      }
+      #leftbox h1,h5{
+        cursor: pointer;
+      }
+
+      /* rightbox mapping-------------------------------> */
+      #mainproductbox{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+  }
+  #box{
+    width: 90%;
+    /* border:1px solid black ; */
+    font-family: "Signika", sans-serif;
+    margin: 4%;
+  }
+  #box img{
+    width: 100%;
+  }
+  #box h3{
+    font-size: 21px;
+    /* margin-top: 5%; */
+    
+  }
+  #box h5{
+    display: inline-block;
+    margin-right: 2%;
+    font-size: 17px;
+    border-right: 1px solid black;
+    padding-right: 2%;
+    margin-top: 5%;
+  }
+  #box h6{
+    display: inline-block;
+    margin-left: 2%;
+    font-size: 15px;
+    margin-top: 7%;
+  }
+  #box h2{
+    margin-top: 4%;
+    font-size: 17px;
+    color: #202124;
+  }
+  #box p{
+    margin-top: 4%;
+    font-size: 10px;
+    color: #202124;
+  
+  }
+  #box button{
+    padding: 11px 40px;
+    border-radius: 200px;
+    height: 44px;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    color: #fff;
+    margin-top: 10%;
+   
+  }
+    </style>
+
+    <div id="container">
+      <div id="leftbox">
+        <div id="line1">
+          <img
+            src="https://media-s3-us-east-1.ceros.com/gumgum/images/2021/06/16/114f7280580c4096a6016a2a4bc4c9b6/kfc-logo-all-lines-red.png"
+            alt=""
+          />
+       
+      </div>
+      <h1>KFC MENU</h1>
+      <h5>Bucket Meals</h5>
+      <h5>Trending</h5>
+      <h5>Burgers</h5>
+      <h5>Rice Bolwz</h5>
+      <h5>Snacks</h5>
+      <h5>Bevereges</h5>
+    </div>
+
+      <div id="rightbox">
+        
+             <input type="text" placeholder=" Search Our Menu" id="search">
+             <hr>
+             <h1 style="font-size: 40px; margin-left: 2.5%;">BUCKET MEALS</h1>
+             <div id="mainproductbox"></div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="products.js"></script>

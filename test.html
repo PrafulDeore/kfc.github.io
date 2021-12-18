@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage Counter</title>
+  </head>
+  <body style="display: flex;">
+    <h1>Counter buttons</h1>
+    <button id="dec">-</button>
+    <h1 id="store">0</h1>
+    <button id="inc">+</button>
+    
+  </body>
+</html>
+<script>
+ document.querySelector("#form").addEventListener("submit",formSubmit)
+var bozazArr = JSON.parse(localStorage.getItem("bozazData"))||[]
+displayTable(bozazArr)
+function displayTable(bozazArr){
+    var tbody = document.querySelector("tbody")
+    
+    bozazArr.map(function(elem,index){
+        var tr = document.createElement("tr")
+        var td1 = document.createElement("td")
+        var td2 = document.createElement("td")
+        var td3 = document.createElement("td")
+        var td4 = document.createElement("td")
+        var td5 = document.createElement("button")
+        td5.addEventListener('click',function(){
+            deleteRow(index)
+        })
+
+    
+        // td1.textContent=elem.category
+        // td2.textContent=elem.title
+        // td3.textContent=elem.description
+        // td4.textContent=elem.price
+        // td5.textContent="Delete"
+
+        // tr.append(td1,td2,td3,td4,td5)
+        // tbody.append(tr)
+    })
+
+    function deleteRow(index){
+        bozazArr.splice(index,1)
+        localStorage.setItem("bozazData",JSON.stringify(bozazArr))
+        displayTable(bozazArr)
+    }
+    
+
+
+}
+  
+</script>

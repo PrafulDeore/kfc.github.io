@@ -1,0 +1,440 @@
+ /* navbar------------------------- */
+ * {
+    margin: 0%;
+    padding: 0%;
+  }
+  #navbar {
+    width: 100%;
+    /* height: 100px; */
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    font-family: "Signika", sans-serif;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+
+    /* position: sticky; */
+  }
+
+  #left {
+    /* border: 1px solid black; */
+    width: 18%;
+    height: 56%;
+    margin-left: 8%;
+    margin-top: 2%;
+    display: flex;
+  }
+
+  #logo img {
+    width: 120px;
+    height: 93%;
+  }
+
+  #left ul {
+    margin-left: 30px;
+    list-style: none;
+    display: flex;
+    margin: auto;
+  }
+
+  #left a {
+    margin-left: 30px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+  }
+  #right {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 56%;
+    margin-top: 2%;
+    display: flex;
+    font-size: 22px;
+  }
+  #right a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+  }
+  #signin {
+    border-right: 1px solid rgb(139, 151, 151);
+    width: 30%;
+    margin-left: 1%;
+    margin-top: -1%;
+    padding-top: 4%;
+  }
+  #rupee {
+    border: 1px solid teal;
+    width: 3%;
+    margin-left: 5%;
+    margin-top: 4%;
+  }
+  #total {
+    /* border: 1px solid teal; */
+    width: 5%;
+    margin-left: 6%;
+    margin-top: 4%;
+  }
+  #kfcbox {
+    /* border: 1px solid teal; */
+    width: 11%;
+    height: 60px;
+  }
+
+  #kfcbox img {
+    width: 50px;
+  }
+
+
+
+  /* <!-- header-----------------------------------------------> */
+  #headerBottom {
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 5px;
+    background: #202124;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 1% auto;
+  }
+  .button {
+    padding: 11px 40px;
+    border-radius: 200px;
+    height: 44px;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Signika", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    color: #fff;
+  }
+
+  /* slideshow------------------------------------------------------> */
+  .slideshow-container {
+    /* max-width: 1000px; */
+    position: relative;
+    margin: auto;
+  }
+  .mySlides img {
+    width: 100%;
+  }
+
+  .active {
+    background-color: red;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 10;
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* Welcome to kfc------------------------------------------> */
+
+  .pastorder-container {
+    background: #f8f7f5;
+    display: flex;
+  }
+  .pastorder-left {
+    width: 30%;
+    margin-left: 13%;
+  }
+  .pastorder-stripes {
+    width: 40px;
+    height: 20px;
+    background: repeating-linear-gradient(
+      90deg,
+      #e4002b,
+      #e4002b 8px,
+      #fff 0,
+      #fff 16px
+    );
+  }
+  .pastorder {
+    font-family: "Signika", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    /* border: 1px solid; */
+    width: 450px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-top: 29.71px;
+    margin-bottom: 30px;
+  }
+
+  /* categorey----------------------------------------------------> */
+  #main {
+    width: 78%;
+    /* border: 1px solid red; */
+    margin-left: 120px;
+    display: block;
+  }
+  #category {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 130px;
+    display: flex;
+    font-size: 30px;
+    font-family: "Signika", sans-serif;
+  }
+  #right1 {
+    /* border-top: 1px solid; */
+    width: 70%;
+    margin: auto;
+    margin-left: 17%;
+  }
+  hr {
+    width: 100%;
+  }
+  #left1 {
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid; */
+  }
+
+  /* products---------------------------------------> */
+  #outerbox {
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+  }
+  img {
+    width: 100%;
+  }
+  #innerbox {
+    margin-left: 1%;
+    color: #202124;
+    font-family: "Signika", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    width: 17.8vw;
+    height: 17.8vw;
+    margin: 1%;
+    display: inline-grid;
+    background: #f8f7f5;
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  #outerbox p {
+    font-size: 10px;
+  }
+  #outercontainer {
+    width: 100%;
+    /* height: 1000px; */
+    background-color: rgb(32, 33, 36);
+  }
+  #innercontainer {
+    width: 80%;
+    margin: auto;
+    padding-top: 7%;
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+  }
+  #upper {
+    display: flex;
+    border: 1px teal;
+    color: white;
+  }
+  #upper p {
+    margin-left: 50%;
+    color: white;
+    font-size: 30px;
+  }
+  #lower {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 1px solid pink; */
+    justify-content: space-between;
+   
+  }
+  .box {
+    /* border: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+    width: 92%;
+    height: 400px;
+    display: block;
+    background-color: white;
+    border-radius: 5%;
+
+  }
+  .box img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .box h2 {
+    color: rgb(228, 0, 43);
+  }
+  .box a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+  }
+  .box button {
+    padding: 7%;
+    width: 100px;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 30%;
+    background-color: white;
+  }
+  .box button:hover {
+    background-color: gray;
+  }
+
+
+   /* fooooooter------------------------------------------------> */
+
+
+.site-footer {
+    background-color: #202124;
+    padding: 5% 5% 0;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+}
+.site-footer .row-one {
+display: inline-flex;
+justify-content: space-evenly;
+width: 100%;
+font-family: "National 2 Regular";
+font-size: 14px;
+margin-top: 2%;
+margin-bottom: 4%;
+}
+
+.site-footer .row-one .category-items {
+display: inline-flex;
+justify-content: space-evenly;
+width: 42%;
+margin-left: 2%;
+}
+.header-text-footer {
+font-family: "National 2 Regular";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #fff;
+margin-bottom: 10px;
+}
+.support-links-menu {
+padding-right: 40%;
+}
+.footer-links {
+padding-left: 0;
+margin-top: 0;
+list-style: none;
+width: 30%;
+text-align: left;
+}
+.footer-links li, .footer-links li a {
+font-weight: 400;
+font-size: 14px;
+color: #e3e3e3;
+}
+.site-footer .row-one .findstore {
+width: 9%;
+}
+.site-footer .social-btns {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+grid-column-gap: 5%;
+-webkit-column-gap: 5%;
+column-gap: 5%;
+}
+.site-footer .row-two {
+display: inline-flex;
+justify-content: space-between;
+width: 100%;
+text-align: center;
+margin-top: 2%;
+font-family: "National 2 Regular";
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 22px;
+padding-bottom: 14px;
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
+.column {
+display: flex;
+align-items: center;
+}
+.column .copyright-text {
+margin: 0;
+font-family: "National 2 Regular";
+font-size: 12px;
+text-align: center;
+opacity: .9;
+line-height: 12px;
+color: #dbdbdb;
+}
+.site-footer .social-icons {
+text-align: right;
+margin-top: 0;
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+text-align: center;
+}
+a {
+color: #202124;
+font-family: "National 2 Regular";
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 22px;
+-webkit-text-decoration-line: underline;
+text-decoration-line: underline;
+cursor: pointer;
+}

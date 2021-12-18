@@ -1,0 +1,92 @@
+#container {
+    margin: 8vw 33vw;
+    /* border: 1px solid red; */
+    text-align: center;
+    display: block;
+    font-family: "Signika", sans-serif;
+  }
+  #sign-in-header {
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #494949;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 7%;
+  }
+  #kfcImg {
+    text-align: center;
+    margin: 8% auto;
+    display: block;
+  }
+  #title {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-bottom: 7%;
+  }
+  #subTitle {
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: center;
+    color: #494949;
+  }
+  #different-number {
+    color: #494949;
+    font-size: 10px;
+    word-spacing: normal;
+    margin-top: 5px;
+  }
+  #otpDiv {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    width: 55%;
+    margin: 1% auto 4%;
+  }
+  .otpNum {
+    width: 28%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 3px dashed #494949;
+    outline: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #202124;
+  }
+  .expireText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #494949;
+    margin-top: 5%;
+  }
+  #submitBtnDiv {
+    padding: 10px 40px;
+    background-color: #dbdbdb;
+    border-radius: 200px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 18px;
+  }

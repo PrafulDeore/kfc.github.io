@@ -1,0 +1,116 @@
+#container {
+    margin: 5vw 33vw;
+    text-align: center;
+    margin: 5vw 33vw;
+    display: block;
+    font-family: "Signika", sans-serif;
+  }
+  #l1 {
+    margin: auto;
+    display: block;
+    color: #494949;
+    font-style: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 7%;
+  }
+  #l2 img {
+    margin: 8% auto;
+    display: block;
+    cursor: pointer;
+  }
+  #l3 {
+    text-align: center;
+    font-family: "Signika", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-bottom: 7%;
+  }
+  #l4 input {
+    border: none;
+    text-align: left;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #202124;
+    outline: none;
+    font-family: "Signika", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #202124;
+    padding-bottom: 0.7%;
+    position: relative;
+    color: rgb(255, 46, 0);
+  }
+  #l5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #202124;
+    margin-top: 7%;
+  }
+  #l5 a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #202124;
+  }
+  #OTP {
+    height: 44px;
+    padding: 10px 40px;
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #202124;
+    border: none;
+    outline: none;
+    border-radius: 200px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+  }
+  #guest {
+    width: 100%;
+    background: #ffffff;
+    color: #202124;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    border-radius: 66px;
+    border: 1px solid #202124;
+
+    padding: 8px 40px;
+    cursor: pointer;
+  }
+  #ordiv {
+    display: flex;
+    margin: 5% 0;
+  }
+  #orleft,
+  #orright {
+    width: 100%;
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+    opacity: 0.1;
+  }
+  #ormid {
+    margin: 0 4%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #202124;
+  }
