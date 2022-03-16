@@ -1,4 +1,4 @@
-# ajio_backend_clone
+# KFC Clone
 This is an e-commerce Website and I made this clone in just 5 Days. I Added only Frontend Features. By Clicking on the menu we can see KFC products and then choose products from there.
 
 # Project Owener-
